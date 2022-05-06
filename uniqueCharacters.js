@@ -1,13 +1,11 @@
-const makeUnique = (str) => {
-    for (let x=0; x<str.length; x++) {
-        if (str[x] === str[x]){
-            false
-        }else{
-            true
-        }   
+const hasUniqueChars = (word) => {
+    let uniqueChars = new Set([])
+    for (let i = 0; i < word.length; i++) {
+      uniqueChars.add(word[i])
+    }
+    return uniqueChars.size === word.length
   }
-}
-  console.log(makeUnique("Moonday"))
+  console.log(hasUniqueChars("Moonday"))
 
 // Extra-Credit
 // O(n)
