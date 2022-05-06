@@ -8,5 +8,8 @@ function data(arr){
 console.log(data(["hi", "hello"]));
 
 
+// O(n)
+
+
 // Extra-Credit
 // O(n)

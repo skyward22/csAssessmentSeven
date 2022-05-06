@@ -7,5 +7,8 @@ const hasUniqueChars = (word) => {
   }
   console.log(hasUniqueChars("Moonday"))
 
+
+// O(n)
+
 // Extra-Credit
 // O(n)
