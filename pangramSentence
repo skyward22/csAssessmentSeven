@@ -11,7 +11,7 @@ function isPangram(string){
   return true;
 }
 
-console.log(isPangram("The quick brown fox jumps over the lay dog!"))
+console.log(isPangram("The quick brown fox jumps over the lazy dog!"))
 
 
 

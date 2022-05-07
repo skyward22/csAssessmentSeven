@@ -12,4 +12,4 @@ console.log(data(["hi", "hello"]));
 
 
 // Extra-Credit
-// O(n)
+// O(1)

@@ -7,6 +7,6 @@
 | tiny  | append 52.792 μs          | insert 20.375 μs      |
 
 
-The ".unshift()" method is more efficient the small the array is. As the array keeps getting better the ".unshift()" method gets less efficient and the ".push()" method is more efficient. This is because the ".push()" method adds to the end of the array and the ".unshift()" method adds to the front. Therefore, the ".push()" method scales better. 
+The ".unshift()" method is more efficient the small the array is. As the array keeps getting better the ".unshift()" method gets less efficient and the ".push()" method is more efficient. This is because the ".push()" method adds to the end of the array and the ".unshift()" method adds to the front. Therefore, the ".push()" method scales better. The function is O(n)
 
-Extra Credit: The ".unshift()" method is slower as the array gets bigger because it has to re index everything in the array, so it's doing extra work each time the method is used. 
+Extra Credit: The ".unshift()" method is slower as the array gets bigger because it has to re index everything in the array, so it's doing extra work each time the method is used. The function is O(n^2).
